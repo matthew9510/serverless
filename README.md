@@ -5,6 +5,10 @@ apps!
 I would like to share my gratitude to the contributions of the Serverless Stack
 community.
 
+**Note:** The serverlessStack-v4.0.pdf will only show highlights properly if you
+download the file, for some reason it cannot render the highlights as a github
+preview.
+
 ## Tasks:
 
 ### For the backend: 
