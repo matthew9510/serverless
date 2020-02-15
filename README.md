@@ -8,7 +8,7 @@ community.
 ## Tasks:
 
 ### For the backend: 
-- [ ] Configure your AWS account 
+- [x] Configure your AWS account 
 - [ ] Create your database using DynamoDB 
 - [ ] Set up S3 for file uploads 
 - [ ] Set up Cognito User Pools to manage user accounts
