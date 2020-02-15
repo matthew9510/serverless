@@ -13,6 +13,7 @@ preview.
 
 ### For the backend: 
 - [x] Configure your AWS account 
+- [x] Configure IAM
 - [ ] Create your database using DynamoDB 
 - [ ] Set up S3 for file uploads 
 - [ ] Set up Cognito User Pools to manage user accounts
