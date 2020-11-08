@@ -1,0 +1,16 @@
+service: note-it-api # creates your stack on AWS using this as the name
+
+# Create an optimized package for our functions
+package:
+individually: true # disable loading all lambda functions
+
+plugins:
+  - serverless-bundle # Package our functions with Webpack # allows us to write our lambda functions using a flavor of javascript that's similar to the one we'll be using in our frontend app
+  - serverless-offline # Helpful for offline development
+  - serverlesss-dotenv-plugin # Load .env as environment variables, helps load the .env files as lambda environment variables
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: prod
+  region: us-west-2

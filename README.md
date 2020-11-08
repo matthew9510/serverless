@@ -38,4 +38,4 @@ preview.
 - [What is AWS lambda](./Notes/what-is-aws-lambda.md)
 - [What is IAM](./Notes/what-is-iam.md)
 - [What is ARN](./Notes/what-is-arn.md)
-
+- [Aws CLI](./Notes/aws-cli.md)

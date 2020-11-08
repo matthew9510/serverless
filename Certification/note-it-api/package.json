@@ -1,0 +1,21 @@
+{
+  "name": "note-it-api",
+  "version": "1.0.0",
+  "description": "AWS note backend for the note-it app",
+  "main": "handler.js",
+  "dependencies": {
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.787.0",
+    "serverless-bundle": "^3.2.1"
+  },
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "Matthew Hess",
+  "license": "ISC"
+}
